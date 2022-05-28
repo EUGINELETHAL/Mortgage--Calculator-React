@@ -1,12 +1,12 @@
 import { useState } from "react";
-// import "./styles.css";
+import "./styles.css";
 
 export default function Calculator() {
     const [state, setState] = useState({
-        purchasePrice: 450000,
-        downPayment: 135000,
-        repaymentTime: 25,
-        interestRate: 3
+        purchasePrice:0,
+        downPayment: 0,
+        repaymentTime: 0,
+        interestRate: 9
     });
 
     const updateState = (key, value) =>

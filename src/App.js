@@ -1,11 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+
 import Calculator from './components/Calculator';
+import Loanform from './components/Loanform';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Calculator/>
+      <Loanform />
     </div>
   );
 }
